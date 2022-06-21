@@ -11,7 +11,8 @@ x = 0;
 if (!question_1) {
     console.log (x);
 } else if (question_1 === 4) {
-    console.log (x += 10);
+    x += 10;
+    console.log (x);
 } else {
     console.log(x);
 }
@@ -19,7 +20,8 @@ if (!question_1) {
 if (!question_2) {
     console.log (x);
 } else if (question_2 === "Да") {
-    console.log (x += 10);
+    x += 10;
+    console.log (x);
 } else {
     console.log(x);
 }
@@ -27,7 +29,8 @@ if (!question_2) {
 if (!question_3) {
     console.log (x);
 } else if (question_3 === "Делить на 0 нельзя") {
-    console.log (x += 10);
+    x += 10;
+    console.log (x);
 } else {
     console.log(x);
 }
@@ -35,7 +38,8 @@ if (!question_3) {
 if (!question_4) {
     console.log (x);
 } else if (question_4 === "Голубое") {
-    console.log (x += 10);
+    x += 10;
+    console.log (x);
 } else {
     console.log(x);
 }
@@ -43,7 +47,8 @@ if (!question_4) {
 if (!question_5) {
     console.log (x);
 } else if (question_5 === 42) {
-    console.log (x += 10);
+    x += 10;
+    console.log (x);
 } else {
     console.log(x);
 }
